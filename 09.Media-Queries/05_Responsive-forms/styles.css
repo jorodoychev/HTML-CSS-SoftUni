@@ -1,0 +1,84 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    width: 1300px;
+}
+
+form {
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 1px 20px -6px black;
+}
+
+fieldset {
+    border: none;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form legend {
+    position: relative;
+    top: -75px;
+    left: -51px;
+    width: 100px;
+    padding: 15px 190px 15px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    font-weight: bold;
+}
+
+
+input {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+input[type='text']:focus {
+    background-color: yellow;
+}
+
+
+button {
+    width: 75px;
+    padding: 8px 15px;
+    background-color: #2D2D2D;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+i {
+    position: relative;
+    left: 120px
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}

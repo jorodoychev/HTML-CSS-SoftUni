@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul li {
+    border: 0.4rem solid black;
+    margin: 8px;
+    padding: 10px;
+}
+
+ul.gallery, li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 300px;
+}

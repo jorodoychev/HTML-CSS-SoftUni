@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+main {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+

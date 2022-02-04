@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+i {
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+
+p:nth-child(2) > a:nth-child(1) {
+    background-color: orange;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+html {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul:nth-child(1) {
+    list-style-type: disc;
+}
+
+ul:nth-child(2) {
+    list-style-type: circle;
+}
+
+ul:nth-child(1) > li:nth-child(2) > ul:nth-child(1) {
+    list-style-type: circle;
+}

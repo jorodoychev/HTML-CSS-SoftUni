@@ -1,0 +1,36 @@
+body {
+    background-color: #EEEEEE;
+    max-width: 1300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table tbody tr:first-child {
+    background-color: #EEEEEE;
+}
+
+table tbody tr:last-child {
+    background-color: white;
+}
+
+
+

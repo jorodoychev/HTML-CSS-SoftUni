@@ -1,0 +1,227 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+    color: #54546D;
+}
+
+h1, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+nav {
+    height: 20%;
+}
+
+nav span {
+    display: inline-block;
+    width: 10%;
+    float: left;
+}
+
+nav span img {
+    padding: 10px 0 0 60px;
+}
+
+nav ul {
+    width: 35%;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #54546D;
+}
+
+section.prices {
+    clear: both;
+    background-color: #54546D;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+}
+
+section.prices::after {
+    content: url("./images/calculator-icon.svg");
+    font-size: 2rem;
+    position: absolute;
+    top: 70px;
+    left: -70px;
+
+}
+
+section.prices h1 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+section.programs {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -223px;
+    z-index: 1;
+    max-width: 90%;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    width: 23%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.card button {
+    border: none;
+    background-color: #9A5DC6;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.card-content {
+    height: 250px;
+}
+
+.card-text {
+    padding: 0 20px;
+}
+
+.card-footer {
+    color: white;
+    height: 120px;
+    border-radius: 0 0 5px 5px;
+}
+
+article.card-footer {
+    background: linear-gradient(to right, #059d3f 0%, #4bd680 50%, #4bd680 100%);
+}
+
+article.card-footer p {
+    margin: 0;
+    position: relative;
+    top: 29px;
+}
+
+section.card-footer p {
+    margin: 0;
+    position: relative;
+    top: 29px;
+}
+
+section.card-footer:nth-child(2) {
+    background: linear-gradient(to right, #4c6c88 0%, #5885ae 50%, #629ace 100%);
+}
+
+section.card-footer:nth-child(2) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+article.card:nth-child(3) > section:nth-child(2) {
+    background: linear-gradient(to right, #4c39a7 0%, #6d5cc5 50%, #8c7de1 100%);
+}
+
+section.card-footer article:nth-child(1)::after {
+    position: relative;
+    float: right;
+    left: 10px;
+    bottom: 30px;
+    content: '';
+    background-color: white;
+    height: 85px;
+    width: 1px;
+}
+
+section.education {
+    position: relative;
+    top: -130px;
+    max-width: 53%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+table tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+i.fa-check {
+    width: 100px;
+    color: #12A945;
+}
+
+i.fa-times {
+    color: #FC4C50;
+}
+
+section.financing {
+    margin: 0 auto;
+    width: 70%;
+}
+
+section.financing article {
+    display: inline-block;
+    width: 61%;
+
+}
+
+section.financing img {
+    display: inline-block;
+    width: 20%;
+    vertical-align: central;
+    margin-left: 130px;
+}
+
+footer {
+    background-color: #54546D;
+    height: 100px;
+    text-align: center;
+    color: #908F9D;
+}
+
+footer p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

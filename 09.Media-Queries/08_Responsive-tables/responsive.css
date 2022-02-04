@@ -1,0 +1,41 @@
+@media all and (max-width: 475px) {
+    table.first {
+        display: none;
+    }
+
+    table.responsive {
+        display: block;
+        border: none;
+    }
+
+    table, th, td {
+        border: none;
+    }
+
+    td:nth-child(even) {
+        width: 62%;
+    }
+
+    td:nth-child(odd) {
+        width: 34%;
+    }
+
+    table, td {
+        border: 1px solid gray;
+    }
+
+    table.responsive td:nth-child(even) {
+        border-left: none;
+    }
+
+    table.responsive td:nth-child(odd) {
+        border-right: none;
+        font-weight: bold;
+    }
+
+    table.responsive tr:nth-child(4),
+    table.responsive tr:nth-child(5) {
+        background-color: white;
+    }
+
+}

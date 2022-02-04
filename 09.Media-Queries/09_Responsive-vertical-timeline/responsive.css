@@ -1,0 +1,71 @@
+@media all and (max-width: 900px) {
+    h4 {
+        width: 38%;
+    }
+
+    article:nth-child(2n) {
+         margin-right: 80px;
+    }
+
+    article:nth-child(2n+1) {
+        margin-left: 80px;
+        text-align: right;
+    }
+
+    h4::after {
+        top: 81px;
+        height: 1738px;
+    }
+
+    article:nth-child(2n)::before {
+        left: 49%;
+        margin-top: 25px;
+    }
+}
+
+@media all and (max-width: 475px) {
+    h4 {
+        width: 85%;
+        margin: 10px 0 0 0;
+    }
+
+    section.timeline article {
+        width: 65%;
+        margin-left: 130px;
+    }
+
+    article:nth-child(even) {
+     align-self: flex-start;
+    }
+
+    article:nth-child(odd) {
+       margin-left: 0;
+        text-align: left;
+    }
+
+    h4::after {
+        top: 62px;
+        height: 1709px;
+        left: 43px;
+    }
+
+    article:nth-child(2n)::before {
+        left: 30px;
+        margin-top: 25px;
+    }
+
+    article:nth-child(2)::after {
+        left: 31px;
+        margin-top: 25px;
+    }
+
+    article:nth-child(4)::after {
+        left: 31px;
+        margin-top: 25px;
+    }
+
+    article:nth-child(6)::after {
+        left: 31px;
+        margin-top: 25px;
+    }
+}

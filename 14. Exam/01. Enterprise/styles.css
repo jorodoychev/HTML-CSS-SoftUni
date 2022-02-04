@@ -1,0 +1,71 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+section {
+    background-color: #F6F8F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+article.asana-title {
+    width: 31%;
+}
+
+p.asana-text {
+    line-height: 1.6em;
+    color: #666F78;
+    margin-bottom: 30px;
+}
+
+p.work-management {
+    font-size: 12px;
+}
+
+article.image {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+
+article.image img {
+    max-width: 60%;
+}
+
+button {
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.sales {
+    margin-right: 8px;
+    background-color: #7573F6;
+    color: white;
+    border: none;
+}
+
+button.more {
+    background-color: #F6F8F9;
+    border: 1px solid black;
+}
+
+
+

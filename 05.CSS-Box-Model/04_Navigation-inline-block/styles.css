@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav, li {
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: #009952;
+}
+
+li{
+    padding: 15px;
+
+}
+
+

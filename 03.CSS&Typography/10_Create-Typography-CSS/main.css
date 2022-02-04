@@ -1,0 +1,49 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul:nth-child(1) {
+    list-style-type: disc;
+}
+
+ul:nth-child(2) {
+    list-style-type: circle;
+}
+
+ul:nth-child(1) > li:nth-child(2) > ul:nth-child(1) {
+    list-style-type: circle;
+}
+
+table, th, td {
+    border: 1px solid rgb(221, 221, 221);
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote {
+    border-left: 2px solid rgb(221,221,221) ;
+    font-style: italic;
+    padding: 20px 400px 100px 20px;
+}
+blockquote p:nth-child(3) {
+    float: right;
+}

@@ -1,0 +1,103 @@
+/* TODO: Add responsive styles here... */
+
+@media all and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        padding: 22px 0 0 0;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 47px;
+        text-align: center;
+        width: 60%;
+        margin: 50px auto;
+    }
+
+    .hero p {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+
+    }
+
+    .hero-btns a:first-child {
+        width: 50%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        padding: 0 27px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .service-box {
+        margin: 40px 10px 15px 10px;
+    }
+
+    div.col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-12.col-sm-12.col-lg-6 {
+        margin-top: 50px;
+    }
+
+    section#contact-us {
+        margin-top: -50px;
+    }
+
+    h5 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .about p {
+        color: #314584;
+        text-align: center;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    footer {
+        padding-top: 55px;
+        margin-top: 8px;
+    }
+
+
+    footer h3 {
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h6 {
+        padding-bottom: 5px;
+    }
+
+}

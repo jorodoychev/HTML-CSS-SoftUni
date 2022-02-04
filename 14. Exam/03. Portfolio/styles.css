@@ -1,0 +1,280 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.header, .about-appolo, .appolo-other, .appolo-gallery, .appolo-form, .appolo-footer {
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+}
+
+.header {
+    padding: 30px 0 0 30px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.header-content {
+    width: 41%;
+    position: relative;
+}
+
+.header-text {
+    line-height: 1.7em;
+}
+
+.header-img {
+    width: 50%;
+}
+
+
+.header-img img {
+    max-width: 100%;
+}
+
+
+.header-menu {
+    margin-right: 10px;
+}
+
+.header-title {
+    font-weight: lighter;
+    font-size: 38px;
+}
+
+.header-text {
+    font-style: italic;
+}
+
+p.header-text::after {
+    content: '';
+    background-color: black;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 279px;
+    left: 10px;
+}
+
+
+.about-appolo {
+    padding: 50px;
+    display: flex;
+}
+
+.about-appolo-text {
+    font-style: italic;
+    line-height: 1.7em;
+}
+
+.about-appolo-section {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.about-appolo-img {
+    width: 37%;
+}
+
+.about-appolo-img img {
+    max-width: 100%;
+}
+
+.about-appolo-title {
+    text-align: right;
+    margin-right: 196px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.about-appolo-content {
+    position: relative;
+}
+
+.about-appolo-title::before {
+    content: '';
+    background-color: black;
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.appolo-other {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 70px 90px 70px;
+}
+
+.appolo-other-title {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.appolo-other-text {
+    font-style: italic;
+    line-height: 1.7em;
+}
+
+.appolo-other-text::after {
+    content: '';
+    background-color: black;
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+.appolo-other-img {
+    width: 50%;
+}
+
+.appolo-other-img img {
+    max-width: 100%;
+}
+
+.appolo-other-content {
+    width: 40%;
+    position: relative;
+}
+
+.appolo-gallery {
+    display: flex;
+    justify-content: center;
+    padding: 110px 70px 110px 70px;
+}
+
+.appolo-gallery img {
+    max-width: 30%;
+}
+
+.appolo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 0 50px;
+}
+
+.appolo-form-title {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.appolo-form-text {
+    font-style: italic;
+    width: 74%;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.appolo-form-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 20px;
+}
+
+
+.appolo-form-input-text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-text {
+    width: 215px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.input-text.textarea {
+    width: 440px;
+    height: 110px;
+}
+
+.input-text:nth-child(1) {
+    margin-right: 10px;
+}
+
+
+.about-appolo-ul {
+    display: flex;
+    padding: 0;
+}
+
+.about-appolo-ul li {
+    list-style-type: none;
+}
+
+.about-appolo-ul li i {
+    font-size: 40px;
+}
+
+.about-appolo-ul li a {
+    color: #909090;
+    margin-right: 15px;
+}
+
+
+.appolo-form {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.appolo-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-img {
+    height: 500px;
+    background-image: url("./images/thumb-1.jpeg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.appolo-gallery > img:nth-child(2) {
+    transform: scale(1.3)
+}
+
+.input-text {
+    background-color: #EFEFEF;
+    border: 1px solid black;
+}
+
+.sendBtn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
